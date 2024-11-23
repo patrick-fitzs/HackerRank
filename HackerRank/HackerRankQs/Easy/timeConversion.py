@@ -21,7 +21,7 @@ def timeConversion(s):
 print(timeConversion(time))
 
 
-#
+
 # if s[:-2] == "AM":
 #     if hour == 12:
 #         hour = "00"
