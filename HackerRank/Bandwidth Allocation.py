@@ -67,3 +67,6 @@ def findMaximumBandwidths(n, k, m):
 
 
 print(findMaximumBandwidths(6, 2, 11))
+
+
+#binary search scaling down like a pyramid
