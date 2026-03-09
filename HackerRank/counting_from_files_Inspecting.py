@@ -15,7 +15,7 @@ filename = "host_access_log_00.txt"
 
 # counts
 counts = {}
-with open(filename) as f:
+with open(filename, 'r') as f:
     for line in f:
         host = line.split()[0] # first part is hostname
         # start count from 0 is first time seen
